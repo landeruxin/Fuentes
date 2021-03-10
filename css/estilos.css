@@ -21,7 +21,7 @@ p{
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: yellow;
 }
 
 img{
@@ -35,7 +35,7 @@ img{
 
 input{
     font-size: 8vw;    
-    color: white;
+    color: yellow;
     background-color: rgb(250, 20, 135);; 
     width: 225px;
     position: relative;
@@ -47,7 +47,7 @@ input{
     text-align: center;
 }
 ::placeholder { 
-    color: aliceblue;    
+    color: yellow;    
     font-size: 7vw;    
   }
 #t1 , #t2, #t3{
@@ -65,7 +65,7 @@ input{
 }
 
 h1{
-    color: yellow;
+    color: rgb(236, 62, 149);;
 }
 
 #te1, #te2{
