@@ -39,7 +39,7 @@ input{
     width: 225px;
     position: relative;
     left: 75px;
-    height: 20px;
+    height: 50px;
     cursor: pointer;
     display: none;
     margin-bottom: 10px;
@@ -64,5 +64,5 @@ input{
 }
 
 h1{
-    color: violet;
+    color: red;
 }
