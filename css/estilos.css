@@ -21,6 +21,7 @@ p{
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 img{
@@ -35,7 +36,7 @@ img{
 input{
     font-size: 8vw;    
     color: white;
-    background-color: green; 
+    background-color: rgb(236, 62, 149);; 
     width: 225px;
     position: relative;
     left: 75px;
@@ -57,7 +58,7 @@ input{
 
 #fin{
     font-weight: bold;
-    color: green;
+    color: rgb(236, 62, 149);
     font-size: 8vw;
     display: none;    
     text-align: center;
@@ -67,7 +68,7 @@ h1{
     color: white;
 }
 
-#text1, #text2{
+#te1, #te2{
     text-align: center;
     display: none;
 }
