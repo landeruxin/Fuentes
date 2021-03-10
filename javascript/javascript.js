@@ -25,7 +25,7 @@ window.onload = function(){
         $("#container2").css("display","block");
         texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
         maquina("texto2",texto,75);
-        $('#img1').slideUp( 1000 ).delay( 11100 ).fadeIn( 900 );
+        $('#img1').slideUp( 1000 ).delay( 13100 ).fadeIn( 900 );
         $('#t1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#b2').slideUp( 1000 ).delay( 23000 ).fadeIn( 900 );
         $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
