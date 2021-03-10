@@ -47,11 +47,11 @@ input{
     text-align: center;
 }
 ::placeholder { 
-    color: white;    
+    color: aliceblue;    
     font-size: 7vw;    
   }
 #t1 , #t2, #t3{
-    width: 72%;
+    width: 73%;
     text-align: center;
     left: 9%;
 }
