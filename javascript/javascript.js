@@ -26,7 +26,7 @@ window.onload = function(){
         texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
         maquina("texto2",texto,75);
         $('#img1').slideUp( 1000 ).delay( 14100 ).fadeIn( 900 );
-        $('#text1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
+        $('#te1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#t1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#b2').slideUp( 1000 ).delay( 23000 ).fadeIn( 900 );
         $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
@@ -41,7 +41,7 @@ window.onload = function(){
             texto = "Ya trekkineko galtzerdiak eukitzia pauso bat da, baino Stravan hasita zeala pauso bat gehio eman ber dezu. Bide oso luzetako ondo etorriko zaizu, fascitisa ez eukitzeko baitare. ";
             maquina("texto3",texto,75);
             $('#img2').slideUp( 1000 ).delay( 15100 ).fadeIn( 900 );
-            $('#text2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
+            $('#te2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#t2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#b3').slideUp( 1000 ).delay( 26000 ).fadeIn( 900 );
             $("#img2").attr("src","fotos/foto2_1.jpg").delay( 200000 );
