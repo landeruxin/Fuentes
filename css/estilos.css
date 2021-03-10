@@ -46,7 +46,7 @@ input{
     text-align: center;
 }
 ::placeholder { 
-    color: grey;    
+    color: black;    
     font-size: 7vw;    
   }
 #t1 , #t2, #t3{
