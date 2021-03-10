@@ -67,6 +67,7 @@ h1{
     color: green;
 }
 
-#texto1, #texto2{
+#text1, #text2{
     text-align: center;
+    display: none;
 }
