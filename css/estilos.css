@@ -35,7 +35,7 @@ img{
 input{
     font-size: 8vw;    
     color: white;
-    background-color: violet; 
+    background-color: green; 
     width: 225px;
     position: relative;
     left: 75px;
@@ -46,8 +46,8 @@ input{
     text-align: center;
 }
 ::placeholder { 
-    color: white;    
-    font-size: 6vw;    
+    color: grey;    
+    font-size: 7vw;    
   }
 #t1 , #t2, #t3{
     width: 72%;
@@ -57,12 +57,16 @@ input{
 
 #fin{
     font-weight: bold;
-    color: blue;
+    color: green;
     font-size: 8vw;
     display: none;    
     text-align: center;
 }
 
 h1{
-    color: red;
+    color: green;
+}
+
+#texto1, #texto2{
+    text-align: center;
 }
