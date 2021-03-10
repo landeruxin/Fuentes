@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(142, 142, 245);
 }
 
 #container2, #container3, #container4{
@@ -64,7 +64,7 @@ input{
 }
 
 h1{
-    color: green;
+    color: white;
 }
 
 #text1, #text2{
