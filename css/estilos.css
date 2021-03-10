@@ -35,8 +35,8 @@ img{
 
 input{
     font-size: 8vw;    
-    color: yellow;
-    background-color: rgb(250, 20, 135);; 
+    color: rgb(142, 142, 245);
+    background-color: yellow;; 
     width: 225px;
     position: relative;
     left: 75px;
@@ -47,7 +47,7 @@ input{
     text-align: center;
 }
 ::placeholder { 
-    color: yellow;    
+    color: rgb(142, 142, 245);    
     font-size: 7vw;    
   }
 #t1 , #t2, #t3{
@@ -58,14 +58,14 @@ input{
 
 #fin{
     font-weight: bold;
-    color: rgb(236, 62, 149);
+    color: yellow;
     font-size: 8vw;
     display: none;    
     text-align: center;
 }
 
 h1{
-    color: rgb(236, 62, 149);;
+    color: yellow;
 }
 
 #te1, #te2{
