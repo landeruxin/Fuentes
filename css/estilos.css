@@ -39,9 +39,11 @@ input{
     width: 225px;
     position: relative;
     left: 75px;
+    height: 20px;
     cursor: pointer;
     display: none;
     margin-bottom: 10px;
+    text-align: center;
 }
 ::placeholder { 
     color: white;    
@@ -59,4 +61,8 @@ input{
     font-size: 8vw;
     display: none;    
     text-align: center;
+}
+
+h1{
+    color: violet;
 }
