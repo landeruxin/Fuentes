@@ -35,7 +35,7 @@ img{
 input{
     font-size: 8vw;    
     color: white;
-    background-color: green; 
+    background-color: red; 
     width: 225px;
     position: relative;
     left: 75px;
@@ -48,7 +48,7 @@ input{
     font-size: 6vw;    
   }
 #t1 , #t2, #t3{
-    width: 80%;
+    width: 70%;
     text-align: center;
     left: 9%;
 }
