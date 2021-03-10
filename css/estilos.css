@@ -35,13 +35,13 @@ img{
 input{
     font-size: 8vw;    
     color: white;
-    background-color: greenyellow; 
+    background-color: violet; 
     width: 225px;
     position: relative;
     left: 75px;
     cursor: pointer;
     display: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 ::placeholder { 
     color: white;    

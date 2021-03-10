@@ -11,8 +11,8 @@ window.onload = function(){
     var texto = "Ukelelia izan zan aurrenego opariya, baino ez bakarra. Opariyan lekua jakiteko pista eskatu: ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
     maquina("texto1",texto,75);
-    $('#ukelele').slideUp( 1000 ).delay( 8000 ).fadeIn( 900 );
-    $('#b1').slideUp( 1000 ).delay( 9000 ).fadeIn( 900 );
+    $('#ukelele').slideUp( 1000 ).delay( 10000 ).fadeIn( 900 );
+    $('#b1').slideUp( 1000 ).delay( 10500 ).fadeIn( 900 );
 
     //Nuestro código
     // alert("Hola");
@@ -25,7 +25,7 @@ window.onload = function(){
         $("#container2").css("display","block");
         texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
         maquina("texto2",texto,75);
-        $('#img1').slideUp( 1000 ).delay( 13100 ).fadeIn( 900 );
+        $('#img1').slideUp( 1000 ).delay( 14100 ).fadeIn( 900 );
         $('#t1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#b2').slideUp( 1000 ).delay( 23000 ).fadeIn( 900 );
         $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
