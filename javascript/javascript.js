@@ -25,13 +25,13 @@ window.onload = function(){
         $("#container2").css("display","block");
         texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
         maquina("texto2",texto,75);
-        $('#img1').slideUp( 1000 ).delay( 11100 ).fadeIn( 900 );
+        $('#img1').slideUp( 1000 ).delay( 13100 ).fadeIn( 900 );
         $('#te1').slideUp( 1000 ).delay( 18000 ).fadeIn( 900 );
         $('#t1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#b2').slideUp( 1000 ).delay( 23000 ).fadeIn( 900 );
         setTimeout(() => {
             $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
-        }, 20000);
+        }, 25000);
         
         
     });
@@ -43,13 +43,13 @@ window.onload = function(){
             $("#container3").css("display","block");
             texto = "Ya trekkineko galtzerdiak eukitzia pauso bat da, baino Stravan hasita zeala pauso bat gehio eman ber dezu. Bide oso luzetako ondo etorriko zaizu, fascitisa ez eukitzeko baitare. ";
             maquina("texto3",texto,75);
-            $('#img2').slideUp( 1000 ).delay( 15100 ).fadeIn( 900 );
+            $('#img2').slideUp( 1000 ).delay( 17100 ).fadeIn( 900 );
             $('#te2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#t2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#b3').slideUp( 1000 ).delay( 26000 ).fadeIn( 900 );
             setTimeout(() => {
                 $("#img2").attr("src","fotos/foto2_1.jpg").delay( 200000 );
-            }, 20000);
+            }, 25000);
             
         }else{
             contador1 ++;
@@ -72,7 +72,7 @@ window.onload = function(){
             $("#container4").css("display","block");
             texto = "Azken oparia ailatu da, nik uste onena. Maiderren horrenbeste diru ez gastatzeko baliyoko dizu. Baino seguru nao gehio erabilikozula 'por vicio'.";
             maquina("texto4",texto,75);
-            $('#img3').slideUp( 1000 ).delay( 18100 ).fadeIn( 900 );
+            $('#img3').slideUp( 1000 ).delay( 15100 ).fadeIn( 900 );
             $('#fin').slideUp( 1000 ).delay( 20100 ).fadeIn( 900 );
             setTimeout(() => {
                 $("#img3").attr("src","fotos/foto3_1.jpg").delay( 300000 );
