@@ -11,7 +11,8 @@ window.onload = function(){
     var texto = "Ukelelia izan zan aurrenego opariya, baino ez bakarra. Opariyan lekua jakiteko pista eskatu: ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
     maquina("texto1",texto,75);
-    $('#ukelele').slideUp( 1000 ).delay( 1500 ).fadeIn( 900 );
+    $('#ukelele').slideUp( 1000 ).delay( 8500 ).fadeIn( 900 );
+    $("#ukelele").trigger('play')delay( 9500 );
     $('#b1').slideUp( 1000 ).delay( 9000 ).fadeIn( 900 );
 
     //Nuestro código
