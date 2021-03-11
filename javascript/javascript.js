@@ -25,7 +25,7 @@ window.onload = function(){
     $("#b1").click((e)=>{
         document.getElementById('ukelele').play();
         setTimeout(() => {
-
+            $("#ukelele").css("display","none");
             $("#container1").css("display","none");
             $("#container2").css("display","block");
             texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
