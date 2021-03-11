@@ -12,7 +12,10 @@ window.onload = function(){
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
     maquina("texto1",texto,75);
     $('#ukelele').slideUp( 1000 ).delay( 8500 ).fadeIn( 900 );
-    $("#ukelele").trigger('play')delay( 9500 );
+    // $("#ukelele").trigger('play')delay( 9500 );
+    setTimeout(() => {
+        document.getElementById('ukelele').play();
+    }, 10000);
     $('#b1').slideUp( 1000 ).delay( 9000 ).fadeIn( 900 );
 
     //Nuestro código
