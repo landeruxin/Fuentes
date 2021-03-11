@@ -25,6 +25,7 @@ window.onload = function(){
     $("#b1").click((e)=>{
         document.getElementById('ukelele').play();
         setTimeout(() => {
+            document.getElementById('ukelele').pause()
             $("#ukelele").css("display","none");
             $("#container1").css("display","none");
             $("#container2").css("display","block");
