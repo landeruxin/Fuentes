@@ -11,8 +11,8 @@ window.onload = function(){
     var texto = "Ukelelia izan zan aurrenego opariya, baino ez bakarra. Opariyan lekua jakiteko pista eskatu: ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
     maquina("texto1",texto,75);
-    $('#ukelele').slideUp( 1000 ).delay( 10000 ).fadeIn( 900 );
-    $('#b1').slideUp( 1000 ).delay( 10500 ).fadeIn( 900 );
+    $('#ukelele').slideUp( 1000 ).delay( 8000 ).fadeIn( 900 );
+    $('#b1').slideUp( 1000 ).delay( 8500 ).fadeIn( 900 );
 
     //Nuestro código
     // alert("Hola");
@@ -25,11 +25,14 @@ window.onload = function(){
         $("#container2").css("display","block");
         texto = "Igandero, ta igandia ez danian re bai, menditik bueltaka ibiltzen zea. Trekkineko zapatila ear hoiek mezi duen akzesoriua berko dituzu ba, ez?";
         maquina("texto2",texto,75);
-        $('#img1').slideUp( 1000 ).delay( 14100 ).fadeIn( 900 );
-        $('#te1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
+        $('#img1').slideUp( 1000 ).delay( 11100 ).fadeIn( 900 );
+        $('#te1').slideUp( 1000 ).delay( 18000 ).fadeIn( 900 );
         $('#t1').slideUp( 1000 ).delay( 22000 ).fadeIn( 900 );
         $('#b2').slideUp( 1000 ).delay( 23000 ).fadeIn( 900 );
-        $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
+        setTimeout(() => {
+            $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
+        }, 20000);
+        
         
     });
 
@@ -44,7 +47,10 @@ window.onload = function(){
             $('#te2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#t2').slideUp( 1000 ).delay( 25000 ).fadeIn( 900 );
             $('#b3').slideUp( 1000 ).delay( 26000 ).fadeIn( 900 );
-            $("#img2").attr("src","fotos/foto2_1.jpg").delay( 200000 );
+            setTimeout(() => {
+                $("#img2").attr("src","fotos/foto2_1.jpg").delay( 200000 );
+            }, 20000);
+            
         }else{
             contador1 ++;
             if(contador1 == 1){
@@ -68,7 +74,10 @@ window.onload = function(){
             maquina("texto4",texto,75);
             $('#img3').slideUp( 1000 ).delay( 18100 ).fadeIn( 900 );
             $('#fin').slideUp( 1000 ).delay( 20100 ).fadeIn( 900 );
-            $("#img3").attr("src","fotos/foto3_1.jpg").delay( 300000 );
+            setTimeout(() => {
+                $("#img3").attr("src","fotos/foto3_1.jpg").delay( 300000 );
+            }, 20000);
+            
 
         }else{
             contador2 ++;
