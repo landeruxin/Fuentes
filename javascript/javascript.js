@@ -11,7 +11,7 @@ window.onload = function(){
     var texto = "Ukelelia izan zan aurrenego opariya, baino ez bakarra. Opariyan lekua jakiteko pista eskatu: ";
  // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
     maquina("texto1",texto,75);
-    $('#ukelele').slideUp( 1000 ).delay( 8500 ).fadeIn( 900 );
+   // $('#ukelele').slideUp( 1000 ).delay( 8500 ).fadeIn( 900 );
     // $("#ukelele").trigger('play')delay( 9500 );
     
     $('#b1').slideUp( 1000 ).delay( 9000 ).fadeIn( 900 );
@@ -24,8 +24,8 @@ window.onload = function(){
 
     $("#b1").click((e)=>{
         document.getElementById('ukelele').play();
-        setTimeout(() => {
-            document.getElementById('ukelele').pause()
+        
+          
             $("#ukelele").css("display","none");
             $("#container1").css("display","none");
             $("#container2").css("display","block");
@@ -39,7 +39,7 @@ window.onload = function(){
                 $("#img1").delay( 100000 ).attr("src","fotos/foto1_1.jpg");
             }, 25000);
             
-         }, 32000);
+         
        
         
         
