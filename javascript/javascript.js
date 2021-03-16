@@ -46,8 +46,10 @@ window.onload = function(){
 
 
     $("#b2").click((e)=>{
-        document.getElementById('video').play();
+        
         if($("#t1").val().toLowerCase()=="legazpi"){
+            document.getElementById('ukelele').pause();
+            document.getElementById('ukelele1').play();
             $("#container2").css("display","none");
             $("#container3").css("display","block");
             texto = "Ya trekkineko galtzerdiak eukitzia pauso bat da, baino Stravan hasita zeala pauso bat gehio eman ber dezu. Bide oso luzetako ondo etorriko zaizu, fascitisa ez eukitzeko baitare. ";
